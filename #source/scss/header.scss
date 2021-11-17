@@ -1,0 +1,142 @@
+body {
+	max-width: 1920px;
+	margin: 0 auto;
+	font-family: 'Playfair Display';
+	color: #fff;
+	background-color: #000;
+}
+
+.wrapper {
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+a {
+	transition: .2s linear;
+	opacity: 0.85;
+	&:hover, &:focus {
+		opacity: 1;
+	}
+}
+
+button {
+	transition: .2s linear;
+	&:hover, &:focus, &:active {
+		opacity: .75;
+	}
+}
+
+/* Header styles start */
+
+.header {
+	font-family: 'PT Sans';
+}
+
+.header__top {
+	font-size: 12px;
+	line-height: 16px;
+	color: #969696;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 14px;
+	margin-bottom: 44px;
+}
+
+.header__top-info {
+	padding-left: 31px;
+	background: url('../../img/header/SVG/eva_phone-outline.svg') no-repeat left center;
+}
+
+.header__top-info_media {
+	padding-left: 31px;
+	background: url('../../img/header/SVG/eva_phone-outline.svg') no-repeat left center;
+	display: none;
+}
+
+.header__top-form {
+	input {
+		padding-left: 24px;
+		background: url('../../img/header/SVG/ic_sharp-log-in.svg') no-repeat left center;
+		color: #fff;
+		cursor: pointer;
+		&::placeholder {
+			text-align: right;
+		}
+	}
+}
+
+.header__navbar {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 31px;
+}
+
+.header__nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header__nav-menu-items {
+	li {
+		display: inline;
+		a {
+			font-size: 14px;
+			line-height: 18px;
+			text-transform: uppercase;
+			color: #969696;
+			padding: 31px 20px;
+			transition: .2s linear;
+			&:hover, &:focus {
+				background: #1F1F1F;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.header__burger {
+	width: 40px;
+	height: 25px;
+	cursor: pointer;
+	position: relative;
+	display: none;
+}
+
+.burger__line {
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	position: absolute;
+	left: 0;
+}
+
+.burger__line_first {
+	top: 0;
+}
+
+.burger__line_second {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.burger__line_third {
+	bottom: 0;
+}
+
+.header__nav-ico {
+	margin-left: 20px;
+	a {
+		margin-left: 40px;
+	}
+}
+
+/* Header styles end */
+

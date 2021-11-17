@@ -1,0 +1,269 @@
+/* Intro styles start */
+
+.intro {
+	font-family: 'PT Sans';
+	height: 100vh;
+	background: url('../../img/main/intro/Rectangle 3.jpg') no-repeat center;
+	background-size: cover;
+	padding-top: 109px;
+}
+
+.intro__body {
+	text-align: center;
+	width: 320px;
+	height: 320px;
+	border: 4px solid #FFFFFF;
+	margin: 0 auto 80px auto;
+
+}
+
+.intro__main-logo {
+	margin-top: 100px;
+}
+
+.intro__logo {
+	img {
+		padding: 7px 0;
+	}
+	&::after {
+		display: block;
+		width: 179px;
+		height: 2px;
+		content: '';
+		background-color: #fff;
+		margin: 7px auto 7px auto;
+	}
+}
+
+.intro__city {
+	font-size: 22px;
+	line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.intro__text {
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	text-transform: uppercase;
+	width: 730px;
+	margin: 0 auto;
+}
+
+/* Intro styles end */
+
+
+/* Season styles start */
+
+.season__body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.season__new {
+	flex: 1 1 54%;
+}
+
+.season__new-title {
+	padding-top: 93px;
+	margin-bottom: 50px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.line {
+	width: 120px;
+	height: 1px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.seacon__line {
+	margin-bottom: 50px;
+}
+
+.season__new-items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 80px;
+	margin-bottom: 93px;
+}
+
+.season__new-item {
+	color: #fff;
+}
+
+.season__new-item-image {
+	img {
+		margin: 56px 22px;
+	}
+	background: #191B1C;
+	margin-bottom: 25px;
+}
+
+.season__new-item-title {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 10px;
+}
+
+.season__new-item-price {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 21px;
+	color: #D0D0D0;
+}
+
+.season__collection {
+	flex: 1 1 46%;
+	background: url('../../img/main/season/svg/bg.svg') no-repeat left;
+	background-size: cover;
+	text-align: center;
+}
+
+.season__collection-title {
+	padding-top: 484px;
+	margin-bottom: 30px;
+}
+
+.season__collection-line {
+	margin-bottom: 30px;
+}
+
+.button {
+	font-family: 'PT Sans';
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	background: none;
+	color: #fff;
+	padding: 12px 28px;
+	border: 1px solid #fff;
+}
+
+.season__collection-button {
+	margin-bottom: 112px;
+}
+
+/* Season styles end */
+
+
+/* Collection styles start */
+
+.collection {
+	margin-bottom: 120px;
+}
+
+.collection__body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.collection__image {
+	flex: 1 1 45.8%;
+	background: url('../../img/main/collection/svg/bg.svg') no-repeat center;
+	background-size: cover;
+}
+
+.collection__description {
+	flex: 1 1 54.2%;
+	text-align: center;
+}
+
+.collection__description-title {
+	padding-top: 100px;
+	margin-bottom: 40px;
+}
+
+.collection__description-line {
+	margin-bottom: 40px;
+}
+
+.collection__description-text {
+	font-family: 'PT Sans';
+	font-size: 14px;
+	line-height: 150%;
+	text-align: center;
+	padding: 0 285px;
+	margin-bottom: 73px;
+}
+
+.collection__description-button {
+	margin-bottom: 112px;
+}
+
+/* Collection styles end */
+
+
+/* Arrivals styles start */
+
+.arrivals__titles {
+	margin-bottom: 40px;
+}
+
+.arrivals__line {
+	margin-bottom: 81px;
+}
+
+.arrivals__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 172px;
+}
+
+.arrivals-item {
+	color: #fff;
+	flex: 1 1 25%;
+}
+
+.arrivals-image {
+	margin-bottom: 25px;
+	img {
+		background: #191B1C;
+		padding: 56px 22px;
+	}
+}
+
+.arrivals-title {
+	margin-bottom: 10px;
+}
+
+.arrivals-price {
+	margin-bottom: 40px;
+}
+
+/* Arrivals styles end */
+
+
+/* Brands styles start */
+
+.brands {}
+.brands__wrapper {}
+.wrapper {}
+.brands__title {
+	margin-bottom: 40px;
+}
+.title {}
+.brands__line {
+	margin-bottom: 40px;
+}
+.line {}
+.brands__items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+
+/* Brands styles end */

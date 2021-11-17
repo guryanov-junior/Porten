@@ -1,0 +1,225 @@
+/* Media start */
+
+@media screen and (max-width: 1756px) {
+	.season__new-items {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 1600px) {
+	.collection__description-text {
+		padding: 0 85px;
+	}
+} 
+
+@media screen and (max-width: 1436px) {
+	.season__new-items {
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 1084px) {
+	.season {
+		padding: 0 15px;
+	}
+	.season__body {
+		display: block;
+	}
+	.season__new-title {
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+	.collection__image {
+		display: none;
+	}
+	.collection__body {
+		background: #000 url('../../img/main/collection/svg/bg.svg') no-repeat center;
+		background-size: cover;
+		margin-top: 100px;
+	}
+	.collection {
+		margin-bottom: 50px;
+	}
+	.arrivals-items {
+		justify-content: space-around;
+		margin-bottom: 50px;
+	}
+	.arrivals-item {
+		flex: 1 1 33.333%;
+		text-align: center;
+	}
+	.footer__top {
+		flex-wrap: wrap;
+	}
+	.footer__categories {
+		margin: 0;
+	}
+	.footer__about, .footer__categories, .footer__mailing {
+		flex-basis: 100%;
+		margin-bottom: 50px;
+		padding: 0 30px;
+	}
+}
+
+@media screen and (max-width: 885px) {
+	.arrivals-item {
+		flex: 1 1 50%;
+		text-align: center;
+	}
+	.arrivals-items {
+		justify-content: space-evenly;
+		margin-bottom: 72px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	body.lock {
+		overflow: hidden;
+	}
+	.header__burger {
+		display: block;
+	}
+	.header__nav-menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #121210;
+		z-index: 2;
+		transform: translateX(100%);
+		transition: .2s linear;
+	}
+	.header__nav-menu-items {
+		padding: 50px;
+		li {
+			display: block;
+			margin-bottom: 40px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			a {
+				font-size: 35px;
+				line-height: 40px;
+			}
+		}
+	}
+	.header__nav-menu-close {
+		width: 50px;
+		height: 50px;
+		position: absolute;
+		top: 50px;
+		right: 20px;
+		cursor: pointer;
+	}
+	.header__nav-menu-close-line {
+		display: block;
+		width: 100%;
+		height: 2px;
+		background-color: #fff;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		z-index: 4;
+	}
+	.header__nav-menu-close-line_first {
+		transform: rotate(45deg);
+	}
+	.header__nav-menu-close-line_second {
+		transform: rotate(-45deg);
+	}
+	.header__nav-menu_active {
+		transform: translateX(0);
+	}
+	.intro {
+		padding: 0 15px;
+	}
+	.intro__text {
+		width: 100%;
+	}
+	.collection__description-title {
+		padding-top: 30px;
+		margin-bottom: 30px;
+	}
+	.collection__description-text {
+		padding: 0 15px;
+	}
+	.arrivals-titles {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 614px) {
+	.season__new-item {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 60px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.season__collection-title {
+		padding-top: 184px;
+	}
+	.arrivals-item {
+		flex-basis: 100%;
+		margin-bottom: 30px;
+	}
+	.arrivals__items {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 558px) {
+	.header__top-info {
+		display: none;
+	} 
+	.header__top-info_media {
+		display: block;
+	}
+	.header__top-form input {
+		padding-left: 0;
+		background: none;
+	}
+	.header__nav-ico a:first-child {
+		margin-left: 0;
+	}
+	.brands__items {
+		text-align: center;
+		a {
+			flex-basis: 100%;
+		}
+	}
+	.brands__title {
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.intro__body {
+		width: 280px;
+		height: 280px;
+	}
+	.header__nav-menu-items {
+		padding: 20px;
+		li {
+			margin-bottom: 15px;
+			a {
+				font-size: 20px;
+				padding: 5px 20px;
+			}
+		}
+	}
+	.header__nav-menu-close {
+		width: 30px;
+		height: 30px;
+		top: 20px;
+	}
+	.season__collection-title {
+		font-size: 27px;
+	}
+	.footer__about, .footer__categories, .footer__mailing {
+		padding: 0 10px;
+	}
+}
+/* Media end */
