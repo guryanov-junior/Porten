@@ -8,7 +8,7 @@
 
 ## Description
 
-#### An example of site layout according to the layout using Figma
+#### An example of site layout according to the layout using Figma. Adaptive and responsive design
 
 </br>
 
